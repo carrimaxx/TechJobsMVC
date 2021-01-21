@@ -18,5 +18,9 @@ namespace TechJobsMVC.Controllers
         }
 
         // TODO #3: Create an action method to process a search request and render the updated search view. 
+        public IActionResult Search()
+        {
+            return View();
+        }
     }
 }
